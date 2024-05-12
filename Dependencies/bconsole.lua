@@ -22,7 +22,7 @@ function bconsole:readline()
     return rconsoleinput()
 end
 function bconsole:sendcolors()
-    bconsole:print("bconsole colors:\nblack\nblue\ngreen\ncyan\nred\nmagenta\nbrown\light_gray\ndark_gray\nlight_blue\nlight_green\nlight_cyan\nlight_red\nlight_magenta\nyellow\nwhite")
+    bconsole:print("bconsole colors:\nblack\nblue\ngreen\ncyan\nred\nmagenta\nbrown\nlight_gray\ndark_gray\nlight_blue\nlight_green\nlight_cyan\nlight_red\nlight_magenta\nyellow\nwhite")
 end
 function bconsole:clear()
     rconsoleclear()
